@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+body{
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+}
+
+h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+#iItemName{
+    width: 35vw;
+    height: 5vh;
+    padding-left:1vw;
+    margin-right:1vw;
+}
+
+#iItemDate{
+    width: 25vw;
+    height: 5vh;
+    margin-left:1vw;
+    margin-right:1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+#iItemPriority{
+    width: 24vw;
+    height: 5vh;
+    margin-left:1vw;
+    margin-right:1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+#addItem{
+    background-color: black;
+    color: white;
+    width: 16vw;
+    height: 5vh;
+    margin-left:1vw;
+    margin-right:1vw;
+}
+
+.tbody > tr{
+    background-color:black;
+    color:white;
+    border: 1px solid white;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-left: 1vw;
+    padding-right:1vw;
+}
+
+.tbody > tr > td{
+    border: 0px;
+}
+
+tbody > tr{
+    border-radius: 10px;
+    margin-top:1vh;
+    margin-bottom: 1vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-left: 1vw;
+    padding-right:1vw;
+}
+
+tbody > tr > td{
+    border: 0px;
+}
+
