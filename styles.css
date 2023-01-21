@@ -95,8 +95,8 @@ tbody > tr{
     justify-content:space-between;
     padding-left: 1vw;
     padding-right:1vw;
-    /* padding-top: 0.5vw;
-    padding-bottom: 0.5vw; */
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
 }
 
 tbody > tr > td{
